@@ -13,7 +13,7 @@ import plotly.graph_objects as go
 import streamlit as st
 from sklearn.decomposition import PCA
 from sklearn.preprocessing import MinMaxScaler, StandardScaler
-import umap
+import umap.umap_ as umap
 #****************************************************************************************
 
 #########################
@@ -48,7 +48,7 @@ import umap
 #DEFINICOES GERAIS
 pd.options.display.float_format = "{:,.2f}".format
 
-DADOS_BASICOS = 'base_completa.db'
+#DADOS_BASICOS = 'base_completa.db'
 DADOS_KMEANS = 'kmeans.csv'
 #DADOS_GMM = 'GMM.csv'
 ESCALA = MinMaxScaler()
