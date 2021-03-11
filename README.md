@@ -1,4 +1,4 @@
-#Projeto de Machine Learning da Tera
+# Projeto de Machine Learning da Tera
 
 Projeto de Conclusão de Curso de Data Science & Machine Learning da turma 01 em 2020 da Tera.
 
